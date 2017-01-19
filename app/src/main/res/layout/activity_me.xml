@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:divider="@drawable/divider"
+    android:dividerPadding="2dp"
+    android:orientation="vertical"
+    android:showDividers="middle|end">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_express" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="4dp"
+            android:text="揽件方式：上门取件\n快递公司：顺丰快递\n预约时间：11月8日 立即取件\n快递费用：称重确定价格"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/item_text_style"
+        android:drawableEnd="@drawable/icon_into"
+        android:drawableLeft="@drawable/icon_one"
+        android:drawableRight="@drawable/icon_into"
+        android:drawableStart="@drawable/icon_one"
+        android:text="我的收藏" />
+
+    <TextView
+        style="@style/item_text_style"
+        android:drawableEnd="@drawable/icon_into"
+        android:drawableLeft="@drawable/icon_two"
+        android:drawableRight="@drawable/icon_into"
+        android:drawableStart="@drawable/icon_two"
+        android:text="商品管理" />
+
+    <TextView
+        style="@style/item_text_style"
+        android:drawableEnd="@drawable/icon_into"
+        android:drawableLeft="@drawable/icon_one"
+        android:drawableRight="@drawable/icon_into"
+        android:drawableStart="@drawable/icon_one"
+        android:text="我的浏览器" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <TextView
+        style="@style/item_text_style"
+        android:drawableEnd="@drawable/icon_into"
+        android:drawableLeft="@drawable/icon_one"
+        android:drawableRight="@drawable/icon_into"
+        android:drawableStart="@drawable/icon_one"
+        android:onClick="show"
+        android:text="我的设备" />
+
+    <TextView
+        style="@style/item_text_style"
+        android:drawableEnd="@drawable/icon_into"
+        android:drawableLeft="@drawable/icon_two"
+        android:drawableRight="@drawable/icon_into"
+        android:drawableStart="@drawable/icon_two"
+        android:text="我的音乐" />
+
+</LinearLayout>

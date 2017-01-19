@@ -1,0 +1,137 @@
+{
+    "android_gradle_plugin_version": "2.2.3",
+    "apk_path": "E:\\MyRecycleView\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "E:\\MyRecycleView\\app\\build\\freeline",
+    "build_directory": "E:\\MyRecycleView\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "F:\\androidtools\\androidSDK\\android-sdk-windows\\build-tools\\24.0.2",
+    "build_tools_version": "24.0.2",
+    "compile_sdk_directory": "F:\\androidtools\\androidSDK\\android-sdk-windows\\platforms\\android-24",
+    "compile_sdk_version": "android-24",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.axaet.myrecycleview",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "E:\\MyRecycleView",
+    "freeline_gradle_plugin_version": "0.8.4",
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_71",
+    "launcher": "com.axaet.myrecycleview.MainActivity",
+    "main_assets_directory": [
+        "E:\\MyRecycleView\\app\\src\\debug\\assets",
+        "E:\\MyRecycleView\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "E:\\MyRecycleView\\app\\src\\debug\\jniLibs",
+        "E:\\MyRecycleView\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "E:\\MyRecycleView\\app\\src\\debug\\jni",
+        "E:\\MyRecycleView\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "E:\\MyRecycleView\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "E:\\MyRecycleView\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "E:\\MyRecycleView\\app\\src\\debug\\res",
+        "E:\\MyRecycleView\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "E:\\MyRecycleView\\app\\src\\debug\\java",
+        "E:\\MyRecycleView\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            "viewpagerindicator"
+        ],
+        "viewpagerindicator": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "E:\\MyRecycleView\\app"
+        },
+        {
+            "name": "viewpagerindicator",
+            "path": "E:\\MyRecycleView\\viewpagerindicator"
+        }
+    ],
+    "package": "com.axaet.myrecycleview",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "E:\\MyRecycleView\\app\\src\\debug\\assets",
+                "E:\\MyRecycleView\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\MyRecycleView\\app\\src\\debug\\jniLibs",
+                "E:\\MyRecycleView\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\MyRecycleView\\app\\src\\debug\\jni",
+                "E:\\MyRecycleView\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\MyRecycleView\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\MyRecycleView\\app\\src\\debug\\res",
+                "E:\\MyRecycleView\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\MyRecycleView\\app\\src\\debug\\java",
+                "E:\\MyRecycleView\\app\\src\\main\\java"
+            ]
+        },
+        "viewpagerindicator": {
+            "main_assets_directory": [
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\release\\assets",
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\release\\jniLibs",
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\release\\jni",
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\release\\res",
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\release\\java",
+                "E:\\MyRecycleView\\viewpagerindicator\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "E:\\MyRecycleView",
+    "sdk_directory": "F:\\androidtools\\androidSDK\\android-sdk-windows",
+    "use_jdk8": true
+}
